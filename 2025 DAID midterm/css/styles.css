@@ -1,0 +1,281 @@
+* {
+  margin: 0; padding: 0; border: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, .page {
+  height: auto;
+  min-height: 100vh;
+}
+
+/* Top bar above sticky menu */
+ #top-bar{
+  background: rgb(235, 164, 188);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px; 
+  padding: 0px 20px;
+  padding-top: 40px;
+  color: #522c61;
+  
+}
+
+.address, .logo, .search-bar{
+  flex: 1;
+  font-weight: bold;
+}
+
+.logo-container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo-container img {
+  max-height: 400px;
+  width: auto;
+ 
+}
+
+
+.search-bar{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.page{
+
+  padding: 2em;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 20px;
+}
+
+/* Sticky bar menu */
+#menu {
+  background-color: rgb(241, 153, 205);
+  color: #771a53;
+  line-height: 4em;
+  padding: 0 1em;
+  position: sticky;
+  top: 0;
+  width: center;
+  text-align: center;
+}
+
+#menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+  color: #bc54e6;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1em;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: #54c9e6;
+}
+
+#menu div {
+  display: inline-block;
+}
+
+/* front image banner below the top bar*/
+.image-container{
+  width:100%;
+  margin: 0;
+  
+}
+
+.front-page-image{
+  width: 100%;
+  object-fit: contain;
+  display:block;
+  height: auto;
+}
+
+#one
+ { background-color: #d86969; 
+   padding: 0;
+
+}
+
+/* Featured collection */
+.wide-banner-one{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+.banner-image-one{
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  height: auto;
+}
+
+.square-grid{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.square-item{
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  background: white;
+  padding: 20px;
+
+}
+
+.square-image{
+  width:100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  min-height: 200px;
+  background: #1f0404;
+}
+
+.image-caption{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #771a53;
+}
+
+.image-caption:hover{
+  color: #54c9e6;
+}
+
+#two 
+{ background-color: #f7aee7;
+  padding: 40px 0;
+}
+
+
+/* News and Events*/
+.wide-banner-two{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+.banner-image-two{
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  height: auto;
+}
+
+.square-grid2{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.square-item2{
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  
+}
+
+.square-image2{
+  width:100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+  min-height: 200px;
+  background: #1f0404;
+}
+
+.image-caption2{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #771a53;
+}
+
+.image-caption2:hover{
+  color: #54c9e6;
+}
+
+#three{ 
+  background-color: #98cde2; 
+  padding: 40px 0;
+}
+
+/* Footer/About Us */
+
+h2 {
+  font-size: 3em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.about-sections{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 0;
+  width: 90%;
+  padding: 0;
+}
+
+.about-sections ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section a{
+  text-decoration: none;
+}
+
+.about-section{
+  padding: 25px;
+  font-weight: bold;
+}
+
+.about-links a:hover{
+  color: #54c9e6;
+}
+
+.about-section h3{
+  color: #771a53;
+  text-align: center;
+}
+
+.about-links li{
+  margin: 5px 0;
+  
+}
+.about-links a{
+  color: #522c61;
+}
+
+#four { 
+  background-color: #d6c0e5; 
+  overflow: hidden; 
+  min-height: 100px;
+  padding-bottom: 70px;
+}
+
